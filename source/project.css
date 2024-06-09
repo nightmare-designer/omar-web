@@ -1,0 +1,118 @@
+body {
+    height : 100vh;
+}
+
+
+body section {
+    background-image : linear-gradient(to bottom, #4FFFB0, black 90%);
+    height : 100%;
+    width : 100%
+}
+
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+    font-family: "Anton", sans-serif;
+}
+
+
+.border {
+    background: linear-gradient(135deg, ☐ rgba(255, 255, 255, 0.1), ☐ rgba(255, 255, 255, 0));
+    
+    backdrop-filter: blur(10px);
+    
+    -webkit-backdrop-filter: blur(10px);
+    
+    border-radius: 20px;
+    
+    border:1px solid rgba(255, 255, 255, 0.18);
+    
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+    display : flex;
+
+    width : 650px;
+
+    height : 260px;
+
+    position : absolute;
+    top : 220px;
+    left : 260px;
+
+
+}
+
+
+.email-form {
+    padding-top : 20px;
+    padding-left : 10px;
+}
+
+
+[type = "email"]{
+    border-radius : 15px;
+    background-color : darkred;
+    color : darkturquoise;
+    border : none;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+    width : 280px;
+    height : 40px;
+    font-size : 28px;
+}
+
+
+input::placeholder {
+    color : darkslategrey;
+    opacity: 7;
+    font-size : 30px;
+    text-align : center;
+    position : relative;
+    top : 1px;
+}
+
+
+.pass-form {
+    padding-top : 60px;
+}
+
+
+[type = "password"]{
+    border-radius : 15px;
+    background-color : darkred;
+    color : darkturquoise;
+    border : none;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+    position : relative;
+    top : -100px;
+    left : 340px;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+    width : 280px;
+    height : 40px;
+    font-size : 28px;
+}
+
+
+
+input:focus {
+    border : 2px solid yellowgreen;
+    outline : 1px solid yellowgreen;
+}
+
+.bor-edit {
+    box-shadow : 10px 10px coral blur;
+    position : relative;
+    top : 15px;
+    left : 230px;
+}
+
+.sub {
+    background-color : darkred;
+    border : 10px yellowgreen;
+    color : yellowgreen;
+    width : 160px;
+    height : 35px;
+    border-radius : 25px;
+    font-size : 20px;
+}
